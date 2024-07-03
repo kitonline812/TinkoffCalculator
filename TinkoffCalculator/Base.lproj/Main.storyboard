@@ -34,7 +34,7 @@
                                 <fontDescription key="fontDescription" type="system" pointSize="30"/>
                                 <color key="tintColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
                                 <inset key="imageEdgeInsets" minX="0.0" minY="0.0" maxX="2.2250738585072014e-308" maxY="0.0"/>
-                                <state key="normal" title="X"/>
+                                <state key="normal" title="x"/>
                                 <connections>
                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="3YU-KE-vEE"/>
                                 </connections>
@@ -204,6 +204,12 @@
                                     <action selector="buttonPressed:" destination="BYZ-38-t0r" eventType="touchUpInside" id="L8W-gg-dIk"/>
                                 </connections>
                             </button>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" ambiguous="YES" misplaced="YES" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="qDD-eB-gWv">
+                                <rect key="frame" x="0.0" y="253" width="382" height="72"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="60"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <viewLayoutGuide key="safeArea" id="6Tk-OE-BBY"/>
                         <color key="backgroundColor" white="0.0" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
@@ -275,6 +281,7 @@
                             <constraint firstItem="M5x-M2-AYf" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.13" id="uey-oP-3P4"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="6f4-Z8-z5b" secondAttribute="bottom" id="wVU-nh-lha"/>
                             <constraint firstItem="ARV-nb-LOy" firstAttribute="leading" secondItem="iTb-Vp-GxT" secondAttribute="leading" id="wir-le-sJi"/>
+                            <constraint firstItem="M5x-M2-AYf" firstAttribute="top" secondItem="qDD-eB-gWv" secondAttribute="bottom" constant="20" id="yc5-sM-Q5X"/>
                             <constraint firstItem="h0o-a8-uof" firstAttribute="height" secondItem="6Tk-OE-BBY" secondAttribute="height" multiplier="0.13" id="zF6-fh-stM"/>
                         </constraints>
                     </view>
